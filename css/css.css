@@ -1,0 +1,74 @@
+body{
+    font-family: Roboto;
+}
+
+section{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* Fonts */
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h6{
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+}
+
+/* Font styles */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+.lineheight{
+    line-height: 150%;
+}
+
+/* Margin og padding */
+.margin-t-10{
+    margin-top: 10px;
+}
+.margin-t-20{
+    margin-top: 20px;
+}
+.margin-t-30{
+    margin-top: 30px;
+}
+
+.margin-tb-20{
+    margin: 20px 0px;
+}
+
+/* Flex */
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
